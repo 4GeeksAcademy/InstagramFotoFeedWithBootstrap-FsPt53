@@ -13,7 +13,7 @@
     <div class="container">
         <nav class="navbar bg-body-secondary p-0">
             <div class="container-fluid bg-body-secondary p-2">
-                <a class="navbar-brand text-dark float-start" href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a class="navbar-brand text-dark float-start" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
                 <div class="d-flex flex-row-reverse">
                   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                       <div class="modal-dialog">
@@ -43,7 +43,7 @@
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-gear" style="color: white;"></i>
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu dropdown-menu-end show">
                             <li><a class="dropdown-item" href="#">Profile</a></li>
                             <li><a class="dropdown-item" href="#">Accesibility</a></li>
                             <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
@@ -66,7 +66,7 @@
             </nav>
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-                    <div class="container">
+                    <div class="container mb-0 pb-0">
                         <div class="row row-cols-3">
                           <div class="col m-0 p-1"><img src="Recursos/Varios 1.png" class="img-fluid"></div>
                           <div class="col m-0 p-1"><img src="Recursos/Twisted Love.jpg" class="img-fluid"></div>
@@ -80,7 +80,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade d-flex flex-column align-items-center" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                    <div class=" container d-none d-md-flex flex-column align-items-center">
                         <div class="card w-50 m-3" id="UnPost"> 
                             <ul class="list-group list-group-flush">
                               <li class="list-group-item clearfix pb-0 mb-0">
@@ -114,7 +115,8 @@
                               </li>
                             </ul>
                         </div>
-                </div>
+                    </div>
+            </div>
             </div>
         </section>
     </div>
